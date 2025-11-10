@@ -56,7 +56,11 @@ Following attempts have been made to solve this problem in different ways -
 ## Operations
 TBD - What is the norm for operations in a typical tech company? What are the challenges? How saral aims to solve these challenges? Workflow for operations.
 
+## [Motivation](motivation.md)
+
 ## [High Level Design](high-level-design.md)
+
+## [Testing](testing.md)
 
 ## [Alternatives](alternatives.md)
 

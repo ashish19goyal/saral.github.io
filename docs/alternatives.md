@@ -7,7 +7,8 @@ layout: page
 
 
 ---
-# Alternative architectures
+
+## Alternative architectures
 In this document we discuss alternative architectures to Saral
 
 ## Platform as a service
