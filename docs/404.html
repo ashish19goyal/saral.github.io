@@ -3,23 +3,118 @@ permalink: /404.html
 layout: page
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
+<style>
+  :root{
+    --bg1:#f6d365;
+    --bg2:#fda085;
+    --card:#ffffff;
+    --muted:#6b7280;
+    --accent:#ef4444;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+  html,body{
+    height:100%;
+    margin:0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: linear-gradient(135deg,var(--bg1),var(--bg2));
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  }
+  .wrap{
+    min-height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:48px 16px;
+    box-sizing:border-box;
+  }
+  .card{
+    background:var(--card);
+    border-radius:16px;
+    padding:36px;
+    width:100%;
+    max-width:760px;
+    box-shadow:0 10px 30px rgba(15,23,42,0.15);
+    text-align:center;
+    border:1px solid rgba(15,23,42,0.04);
+  }
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:8px 12px;
+    border-radius:999px;
+    background:linear-gradient(90deg, rgba(239,68,68,0.12), rgba(249,115,22,0.08));
+    color:var(--accent);
+    font-weight:600;
+    margin-bottom:18px;
+    font-size:14px;
+  }
+  h1{
+    margin:6px 0 8px;
+    font-size:84px;
+    line-height:1;
+    letter-spacing:-2px;
+    color:#0f172a;
+  }
+  h2{
+    margin:0 0 16px;
+    font-size:20px;
+    color:#0f172a;
+    font-weight:600;
+  }
+  p.lead{
+    margin:0 0 18px;
+    color:var(--muted);
+    font-size:16px;
+  }
+  a.email{
+    color:#111827;
+    text-decoration:underline;
+    font-weight:600;
+  }
+  .actions{
+    margin-top:20px;
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding:10px 16px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+    color:white;
+  }
+  .btn-primary{
+    background:linear-gradient(90deg,#fb7185,#f97316);
+    box-shadow:0 6px 18px rgba(249,115,22,0.18);
+  }
+  .btn-ghost{
+    background:transparent;
+    color:#374151;
+    border:1px solid rgba(15,23,42,0.06);
+  }
+
+  @media (max-width:520px){
+    h1{ font-size:56px; }
+    .card{ padding:24px; border-radius:12px; }
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
+<div class="wrap">
+  <div class="card" role="main" aria-labelledby="title-404">
+    <div class="badge">🚧 Under construction</div>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+    <h1 id="title-404">404</h1>
+    <h2>Page not found</h2>
+
+    <p class="lead">We are still building Saral. <a class="email" href="mailto:ashish.19goyal@gmail.com">Write to us at ashish.19goyal@gmail.com</a> if you are looking for a specific feature</p>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ "/" | relative_url }}">Go to homepage</a>
+      <a class="btn btn-ghost" href="javascript:history.back()">Go back</a>
+    </div>
+  </div>
 </div>

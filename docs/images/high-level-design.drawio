@@ -1,0 +1,48 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="rfPc50leMqRXg5S3uH9g">
+        <mxGraphModel dx="543" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-1" value="&lt;div&gt;Saral Interface&lt;/div&gt;&lt;div&gt;(design language)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="202" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mMKoS-cZ5EFjEguSXkli-2" target="mMKoS-cZ5EFjEguSXkli-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-2" value="Saral Compiler" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-3" value="Saral Generator" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-4" value="Saral Deployer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mMKoS-cZ5EFjEguSXkli-1" target="mMKoS-cZ5EFjEguSXkli-2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="350" as="sourcePoint"/>
+                        <mxPoint x="450" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.908;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="mMKoS-cZ5EFjEguSXkli-1" target="mMKoS-cZ5EFjEguSXkli-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="302" y="234" as="sourcePoint"/>
+                        <mxPoint x="459" y="144" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-9" value="Design language converted to C4 diagrams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="120" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-10" value="converted to code and packaged as docker artifacts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="180" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mMKoS-cZ5EFjEguSXkli-11" value="docker artifacts to terrform code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="330" width="110" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

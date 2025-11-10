@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Saral is an open source project to make software development simpler (saral) for Software Developers.
   It is a Domain driven design framework to build and manage applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.saral.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://saral.app" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ashish19goyal
 github_username:  ashish19goyal
 
