@@ -9,7 +9,7 @@ layout: page
 ---
 
 ## Testing Ideology
-- Customer has some expectations from the application on how it should behave. Its best that we only test based on customer provided test cases.
+- Customers have some expectations from the application on how it should behave. Its best that we only test based on customer provided test cases.
 - Auto generated code doesn't have to be tested. It is assumed that all auto-generated code is hardened by Saral.
 
 ## Methodology
