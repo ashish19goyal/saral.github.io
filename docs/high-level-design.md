@@ -9,6 +9,7 @@ layout: page
 
 # Design Components
 Saral is a higher level of abstraction on existing technologies. It will parse the application design as Domain driven design and generate artifacts in existing technologies to meet those requirements.
+
 ![High Level Design](images/high-level-design.png "High Level Design")
 
 ## Planes
@@ -22,6 +23,7 @@ Like any other compiler, Saral compiler has a defined instrcutions set. Initiall
 The instruction is based on `Domain Driven Design`
 
 ### Examples of instruction set
+
 | Instruction | Parameter | Parameter Value | Technology |
 | ----------- | --------- | --------------- | ---------- |
 | Design | Constructs | Domain | Core, Generic, Supporting |
