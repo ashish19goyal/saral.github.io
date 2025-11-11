@@ -29,7 +29,9 @@ twitter_username: ashish19goyal
 github_username:  ashish19goyal
 
 # Build settings
-theme: just-the-docs
+# theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+
 nav_enabled: true
 heading_anchors: true
 header_pages:
