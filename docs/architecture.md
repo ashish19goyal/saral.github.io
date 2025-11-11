@@ -3,10 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Architecture
+nav_order: 3
 ---
-
---- 
-
 # Design Components
 Saral is a higher level of abstraction on existing technologies. It will parse the application design as Domain driven design and generate artifacts in existing technologies to meet those requirements.
 

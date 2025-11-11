@@ -29,9 +29,18 @@ twitter_username: ashish19goyal
 github_username:  ashish19goyal
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+theme: just-the-docs
+nav_enabled: true
+heading_anchors: true
+header_pages:
+  - getting-started.md
+  - motivation.md
+  - architecture.md
+  - testing.md
+  - operations.md
+  - alternatives.md
+
+search_enabled: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -3,11 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Motivation
+nav_order: 6
 ---
-
-
----
-
 ## Motivation
 When developers are building an application, they should be choosing the best available tools. However, mostly the developers are bound to choose the tools they best know how to use. Although the application is built and delivered successfully, they could never go back to see if the results could have been better had they chosen a different set of tools. 
 

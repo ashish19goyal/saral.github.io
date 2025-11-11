@@ -3,11 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Alternatives
+nav_order: 7
 ---
-
-
----
-
 ## Alternative architectures
 In this document we discuss alternative architectures to Saral
 

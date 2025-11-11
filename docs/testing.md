@@ -3,11 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+title: Testing
+nav_order: 5
 ---
-
-
----
-
 ## Testing Ideology
 - Customers have some expectations from the application on how it should behave. Its best that we only test based on customer provided test cases.
 - Auto generated code doesn't have to be tested. It is assumed that all auto-generated code is hardened by Saral.

@@ -3,15 +3,20 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
+nav_enabled: true
+nav_order: 1
 ---
+## About
+Our objective is to create a software design framework/language for software developers that covers all the aspects of Software development lifecycle, including
+1. Design
+2. Implementation
+3. Testing
+4. Optimization
+5. Deployment
+6. Monitoring
 
-
----
-
-## Objective
-The need for software applications is continuously increasing. It’s required to carry out our daily chores like calling a cab or buying groceries. We need it to run our businesses, be it payroll, inventory or logistics or appointments booking at a dental clinic.
-
-Our objective is to create a software design framework/language for software developers. We are calling it `Saral`, meaning Simple. Software developers will only need understanding of System Design and tools like Saral and AI agents to build any software application.
+We are calling it `Saral`, meaning Simple. Software developers will only need understanding of System Design and tools like Saral to build and manage any software application.
 
 ## Context
 Every few decades, technology has been moving towards a higher level of abstraction to hide the underlying complexities. Today, the complexities in Software development have again reached a point where managing it in its existing form is unviable and too expensive. A simple change in a big enterprise software costs thousands of dollars in terms of developers time and computational resources for development/testing/release. 
@@ -21,14 +26,14 @@ Not long ago, we started with manually toggling 1s and 0s in the earliest comput
 Today, again we need another abstraction as the applications built today are distributed, intregrated and AI enabled. These applications span distributed storage systems and have to support multiple user interfaces at the same time. e.g., a video and music streaming site like youtube can be accessed via laptops, mobile, TVs, projectors, smartwatches etc.
 
 ## Goals
-- **Move from how to what**: Descriptive not imperative
+- **Complete SDLC**: Should cover all aspects of SDLC including development, testing, release, deployment, monitoring.
 - **Easy to understand** for existing software developers.
 - **Deterministic**: Produce the same results when implemented in any of today's technologies
 - **Cloud Native and agnostic**: Should be able run on any cloud platform or edge devices. Multi-cloud support 
 - **Incremental Development**: Should be able to use Saral to define the software projects that exist today.
-- **Complete SDLC**: Should cover all aspects of SDLC including development, testing, release, deployment, monitoring.
 - **Unified and distributed**: Saral should adopt a distributed first ideology (microservices). As that’s the need of today’s software development. It should also support unified application (monolithic) generation for rapid testing in a limited scale environment.
 - **Source control and Collaboration**: Saral should support `Source control` and `Team collaboration` using code repositories.
+- **Move from how to what**: Descriptive not imperative
 
 ## Market Research
 Gartner estimates that a third of business users want to create software applications to solve their problems. There are not enough resources available with the IT teams to meet this demand. To solve this problem, a lot of low-code/no-code solutions are proposed. Gartner estimated a $30 billion market for low code by 2025. About 65% of application development by 2030 will be low code.
@@ -49,20 +54,6 @@ Following attempts have been made to solve this problem in different ways -
 - **Continuous deployment**: Everyday changes have to be released without any downtime. This should be as simple as the click of a button. Saral will give feedback to the developer on the possible impact of the release. The developer will take a decision on accepting the changes. Then Saral will deploy everything without any downtime. This is the approach being implemented by modern deployment managers, e.g., Terrform
 - **Observability**: This is one of the biggest challenges for software developers today. There are multiple solutions available for managing this. E.g. logging, metrics, profiling, tracing etc. Saral would provide this out of the box on a unified platform for working across deployed artifacts.
 - **Resiliency**: Saral can implement the best practices for resiliency at every touch point between deployed artifacts and external systems.
-
-## User workflow
-![User-workflow](images/user-flow.png "User workflow")
-
-## Operations
-TBD - What is the norm for operations in a typical tech company? What are the challenges? How saral aims to solve these challenges? Workflow for operations.
-
-## [Motivation](motivation.md)
-
-## [High Level Design](high-level-design.md)
-
-## [Testing](testing.md)
-
-## [Alternatives](alternatives.md)
 
 ## References
 - [Low-Code and the Democratization of Programming](https://learning.oreilly.com/library/view/low-code-and-the/9781098112592/copyright-page01.html) by the O’Reilly Editorial Team
