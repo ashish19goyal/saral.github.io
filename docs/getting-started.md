@@ -10,6 +10,6 @@ nav_order: 2
 
 ![User-workflow](images/user-flow.png "User workflow")
 
-[Project structure - Video](www.saral.app/images/app-structure.webm)
+[Project structure - Video](images/app-structure.webm)
 
-[Project Describe - Video](www.saral.app/images/describe.webm)
+[Project Describe - Video](images/describe.webm)
