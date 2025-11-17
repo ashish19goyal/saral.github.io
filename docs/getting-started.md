@@ -9,3 +9,7 @@ nav_order: 2
 ## Getting Started with Saral
 
 ![User-workflow](images/user-flow.png "User workflow")
+
+[Project structure - Video](www.saral.app/images/app-structure.webm)
+
+[Project Describe - Video](www.saral.app/images/describe.webm)
