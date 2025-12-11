@@ -16,9 +16,9 @@ Our objective is to take the tools out of the equation. Saral helps developers t
 ## Distributed systems fail more often than not
 We do not have the right tools to build applications natively for distributed systems. We still build applications to run on one machine and then make them work in a distributed environment by including - scalability and resiliency. 
 
-In data processing, Apache Spark has been a successful experiment in natively building distributed data processing applications. Other modern attempts in ML/AI like pytorch also face challenges with distributed model training and development. 
+In data processing, Apache Spark has been a successful experiment in natively building distributed data processing applications. In ML/AI pytorch lightning also tries to address the same concerns. 
 
-Our objective is to replicate the success of apache spark with Project Saral.
+Our objective is to replicate the success of apache spark and pytorch lightning with Project Saral.
 
 ## SDLC process
 1. Plan and design
