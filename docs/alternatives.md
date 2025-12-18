@@ -4,7 +4,7 @@
 
 layout: page
 title: Alternatives
-nav_order: 7
+nav_order: 8
 ---
 ## Alternative architectures
 In this document we discuss alternative architectures to Saral

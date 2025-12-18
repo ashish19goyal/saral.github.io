@@ -4,6 +4,6 @@
 
 layout: page
 title: Operations
-nav_order: 4
+nav_order: 6
 ---
 TBD - What is the norm for operations in a typical tech company? What are the challenges? How saral aims to solve these challenges? Workflow for operations.

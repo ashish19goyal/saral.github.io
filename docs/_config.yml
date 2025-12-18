@@ -36,10 +36,11 @@ nav_enabled: true
 heading_anchors: true
 header_pages:
   - getting-started.md
-  - motivation.md
   - architecture.md
+  - modelling.md
   - testing.md
   - operations.md
+  - motivation.md
   - alternatives.md
 
 search_enabled: false

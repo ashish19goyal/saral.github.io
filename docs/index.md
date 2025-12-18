@@ -56,6 +56,7 @@ Following attempts have been made to solve this problem in different ways -
 - **Resiliency**: Saral can implement the best practices for resiliency at every touch point between deployed artifacts and external systems.
 
 ## References
+- [Domain Driven Design by Eric Evans](https://www.domainlanguage.com/)
 - [Low-Code and the Democratization of Programming](https://learning.oreilly.com/library/view/low-code-and-the/9781098112592/copyright-page01.html) by the O’Reilly Editorial Team
 - [Power Fx](https://powerapps.microsoft.com/en-us/blog/introducing-microsoft-power-fx-the-low-code-programming-language-for-everyone/) by Microsoft
 - [Getting started with Serverless](https://learning.oreilly.com/learning-paths/learning-path-getting/9781492042099/) by Sam Newman
