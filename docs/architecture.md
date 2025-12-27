@@ -27,26 +27,20 @@ The instruction is based on `Domain Driven Design`
 | ----------- | --------- | --------------- | ---------- |
 | Design | Constructs | Domain | Core, Generic, Supporting |
 |        | Constructs | Sub-Domain |     |
-|        | Constructs | Module |     |
 |        | Constructs | Aggregates |     |
-|        | Constructs | Entities |     |
-|        | Constructs | Service |     |
-|        | Constructs | Respository |     |
-|        | Constructs | Factory |     |
-|        | Constructs | Event |     |
+|        | Constructs | Command    |     |
+|        | Constructs | Policy     |     |
+|        | Constructs | Event      |     |
 | Datastore | Type | Relational | Mysql, Oracle, PgSQL |
-|          | Type | object store | AWS S3, Oracle Object store, Azure Blob|
-|          | Type | Cache | Memcache, redis|
-|          | Type | Streaming | Youtube, zoom |
-|          | Type | Blockchain | 
+|           | Type | object store | AWS S3, Oracle Object store, Azure Blob|
+|           | Type | Cache | Memcache, redis|
 | Algorithms | Type | Custom | Scala, python, js |
 |            | Type | Template | AWS functions, OCI functions etc |
 | Interaction Interface | Type | Website | HTML | 
 |                       | Type | Mobile app | Android, IOS | 
 |                       | Type | Console | Terminal, File |
 | External Service | Type | SaaS | Salesforce, Booking | 
-|                       | Type | PaaS | Microsoft, Databricks | 
-|                       | Type | Iaas | Azure, GCP, AWS |
+|                       | Type | PaaS | Microsoft, Databricks |
 
 
 ## Grammar
