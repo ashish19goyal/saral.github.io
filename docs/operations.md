@@ -6,8 +6,11 @@ layout: page
 title: Operations
 nav_order: 6
 ---
-TBD - What is the norm for operations in a typical tech company? What are the challenges? How saral aims to solve these challenges? Workflow for operations.
 
+## Deployment
+Saral helps in deploying the application as a monolith or microservices on a specified cloud. It also enables running the complete applciation on developer machine. 
 ![Operations](images/saral-deployment-manager.png "Deployment")
 
+## Observability
+Saral incorporates obeservability aspects to help developers monitor the usage and performance of their applications.
 ![Operations](images/saral-operations.png "Operations")
