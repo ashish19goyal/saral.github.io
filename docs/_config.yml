@@ -41,7 +41,6 @@ header_pages:
   - testing.md
   - operations.md
   - motivation.md
-  - alternatives.md
   - documentation.md
 
 search_enabled: false
