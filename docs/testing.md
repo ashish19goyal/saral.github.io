@@ -6,14 +6,22 @@ layout: page
 title: Testing
 nav_order: 5
 ---
-## Testing Ideology
+## Ideology
 - Developers have some expectations from the application on how it should behave. Its best that we only test based on developer provided test cases.
 - Auto generated code doesn't have to be tested. It is assumed that all auto-generated code is hardened by Saral.
 
 ## Methodology
-- Saral auto-generates some tests based on the design model. These test cases verify the basic constructs of the design model. e.g.
-  - It points out unreachable objects/components in the design.
-  - Tests custom logic is compatible with declarations.
+
+### Design verification
+Saral verifies unused segments of the code.
+- It points out unreachable objects/components in the design.
+- Verifies that custom logic is reachable.
+
+### Unit testing
+Saral auto-generates aggregate level tests based on the design model. 
+- These test cases verify the constraints on the aggregates.
+
+### Integration testing
 - Developer triggers a run of the application from the Saral UI.
 - Depending on the type of the application, Saral will record the interactions with the application
   - Browser UI: Run the application in chromium and record all interactions
@@ -23,7 +31,6 @@ nav_order: 5
 - Ask user to generalize the output patterns (potentially using AI)
 - When the user submits the final test report, it is recorded for running as a regression test case
 
-
-## Regression testing
+### Regression testing
 - Before every publish, all regression tests are validated
 - Users can optionally run regression test on their branches on-demand

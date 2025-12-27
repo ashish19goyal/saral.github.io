@@ -8,20 +8,35 @@ nav_order: 4
 ---
 ## Modelling
 
-### Documents and diagrams
-- Documentation represent the interactions and relationships between the objects of the system. 
-- However, it fail to convey the conceptual definitions of system objects.
-- Behaviour of the objects and the constraints on them are difficult to illustrate using documents and diagrams. 
-- More often than not, these documents are just interaction diagrams representing the skeletons of the ideas.
-- As the system evolves, these documents lose their connection with the flow of the system becoming stale or irrelevant.
-- On the other hand, comprehensive diagrams of the entire object model overwhelm the reader with details. Again failing to communicate effectively.
-
-### Unified modelling language
-- A modelling language should be able to clearly communicate the meaning of the concepts it represents.
-- Documentation should be implicit to the modelling language. Not an after thought.
+## Unified modelling language
+- The modelling language should be able to clearly communicate the meaning of the concepts it represents.
 - Declarative style language to make it easier for the developers to comprehend its meaning.
 - One model should underlie implementation, design and team communication.
+- The modelling process should be intuitive and follow a step-by-step approach. e.g. Event storming. 
 
-### Visualization
-- A single visualization format doesn't work for all types of communications or all types of projects.
-- Developers should be able to visualize the system using different visualization formats. e.g. Component diagrams, Entity Relationship diagrams, Sequence diagrams etc.
+## Event storming
+- Event storming is for discovery. Its not designed for translation of requirements into an application design.
+- We need a modelling language that can take the results of an event storming workshop as input.  
+- Stakeholders: Business, tech, UX
+
+### Vocabluary of Event storming and Domain Driven Design
+- Domain events (Orange): A state transition happening in the system. Every Event storming workshop starts with identifying domain events on a timeline.
+- Problem areas (purple): Based on their experience, stakeholders list down potential problems/challenges with each domain event.
+- Commands (blue): An action started by a user. This typically triggers a domain event. This is also used to analyze User experience UX.
+- Actors (Yellow): Users interacting with the system. Further refined into personas. 
+- Read models (Green) - Data needed by the user to make a decision
+- Policy (lilac) - A reactive logic based on some domain event. A command is triggered based on some event.
+- Aggregates (yellow) - These are the logical entities that encapsulate a group of domain events/commands/policies etc.
+
+### Sources of Domain events
+- Commands
+- External systems integrations
+- Other domain events
+- Time based policies (cron jobs)
+
+## From event storming to application desgin
+- Bounded contexts become modules/micro-services
+- Aggregates become services within bounded contexts
+- Commands become API endpoints
+- Policies become internal constraints and logical implementation of services
+- Domain events become events

@@ -42,6 +42,7 @@ header_pages:
   - operations.md
   - motivation.md
   - alternatives.md
+  - documentation.md
 
 search_enabled: false
 
