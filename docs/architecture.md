@@ -49,7 +49,7 @@ The instruction is based on `Domain Driven Design`
 |                       | Type | Iaas | Azure, GCP, AWS |
 
 
-## [Grammar](design-language-grammar.md)
+## Grammar
 Grammar is important to establish relationships between instructions in the requirements. It will decide how the different items in the application interact with each other
 
 Saral uses following technologies
@@ -62,6 +62,3 @@ Saral uses following technologies
 - OpenApi for API contracts implemented as JSON payloads
 - Terraform for Infrastructure as code
 - Kubernetes as deployment orchestrator
-
-## Observability
-![Saral Observability](images/saral-operations.png "Saral Observability")

@@ -38,5 +38,5 @@ nav_order: 4
 - Bounded contexts become modules/micro-services
 - Aggregates become services within bounded contexts
 - Commands become API endpoints
-- Policies become internal constraints and logical implementation of services
+- Policies become service constraints and business logic
 - Domain events become events
