@@ -1,39 +1,82 @@
 <mxfile host="65bd71144e">
     <diagram id="JrKMx-BHZ8rGoJJhCivb" name="Page-1">
-        <mxGraphModel dx="2222" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2033" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="IXw6RppPm3PSC1fbkySj-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="210" width="190" height="510" as="geometry"/>
+                    <mxGeometry x="260" y="210" width="1040" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="IXw6RppPm3PSC1fbkySj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IXw6RppPm3PSC1fbkySj-2" target="IXw6RppPm3PSC1fbkySj-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="IXw6RppPm3PSC1fbkySj-6" value="&lt;div&gt;Design using Saral&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IXw6RppPm3PSC1fbkySj-5" vertex="1" connectable="0">
+                <mxCell id="IXw6RppPm3PSC1fbkySj-6" value="&lt;div&gt;Requirements&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IXw6RppPm3PSC1fbkySj-5" vertex="1" connectable="0">
                     <mxGeometry x="-0.1907" y="-1" relative="1" as="geometry">
                         <mxPoint x="20" y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="IXw6RppPm3PSC1fbkySj-2" value="Application Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="335" y="100" width="30" height="60" as="geometry"/>
+                <mxCell id="IXw6RppPm3PSC1fbkySj-2" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="310" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="IXw6RppPm3PSC1fbkySj-4" value="Saral Compiler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="280" width="120" height="60" as="geometry"/>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IXw6RppPm3PSC1fbkySj-4" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="IXw6RppPm3PSC1fbkySj-16" value="&lt;div&gt;Generates deployable artifacts&amp;nbsp;&lt;/div&gt;&lt;div&gt; publishes them to artifactory&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IXw6RppPm3PSC1fbkySj-4" target="IXw6RppPm3PSC1fbkySj-12" edge="1">
+                <mxCell id="14" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Design Metadata&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="-0.311" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IXw6RppPm3PSC1fbkySj-4" value="Analyzer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="IXw6RppPm3PSC1fbkySj-16" value="&lt;div&gt;Generates artifacts&amp;nbsp;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="12" target="IXw6RppPm3PSC1fbkySj-12" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="680" y="410" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="IXw6RppPm3PSC1fbkySj-18" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Deploys to selected&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;cloud/edge devices&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IXw6RppPm3PSC1fbkySj-12" target="IXw6RppPm3PSC1fbkySj-17" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="IXw6RppPm3PSC1fbkySj-18" value="&lt;div&gt;Generates terraform &lt;br&gt;&lt;/div&gt;&lt;div&gt;based &lt;br&gt;&lt;/div&gt;&lt;div&gt;deployment configuration&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IXw6RppPm3PSC1fbkySj-12" target="IXw6RppPm3PSC1fbkySj-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="910" y="270"/>
+                            <mxPoint x="1180" y="270"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="IXw6RppPm3PSC1fbkySj-12" value="Saral Deployment Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="460" width="120" height="60" as="geometry"/>
+                <mxCell id="IXw6RppPm3PSC1fbkySj-12" value="Deployment Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="230" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="IXw6RppPm3PSC1fbkySj-17" value="Done" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-                    <mxGeometry x="310" y="620" width="80" height="70" as="geometry"/>
+                    <mxGeometry x="1140" y="330" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;b&gt;Saral Framework&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="210" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Describer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3" target="IXw6RppPm3PSC1fbkySj-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="750" y="320" as="sourcePoint"/>
+                        <mxPoint x="980" y="365" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1180" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Generates Dashboard&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;for visualizing&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Application design&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="0.0052" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Design Metadata&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IXw6RppPm3PSC1fbkySj-4" target="3" edge="1">
+                    <mxGeometry x="0.12" relative="1" as="geometry">
+                        <mxPoint x="420" y="320" as="sourcePoint"/>
+                        <mxPoint x="640" y="280" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Compiler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="310" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

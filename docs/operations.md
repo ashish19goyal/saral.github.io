@@ -7,3 +7,7 @@ title: Operations
 nav_order: 6
 ---
 TBD - What is the norm for operations in a typical tech company? What are the challenges? How saral aims to solve these challenges? Workflow for operations.
+
+![Operations](images/saral-deployment-manager.png "Deployment")
+
+![Operations](images/saral-operations.png "Operations")
