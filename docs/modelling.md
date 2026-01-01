@@ -26,7 +26,7 @@ nav_order: 4
 - Actors (Yellow): Users interacting with the system. Further refined into personas. 
 - Read models (Green) - Data needed by the user to make a decision
 - Policy (lilac) - A reactive logic based on some domain event. A command is triggered based on some event.
-- Aggregates (yellow) - These are the logical entities that encapsulate a group of domain events/commands/policies etc.
+- Aggregates (yellow) - These are the logical entities that encapsulate a group of domain events/commands/policies etc. Aggregates should be completely contained within and independent of each other, i.e., mutually exclusive and exhaustive. 
 
 ### Sources of Domain events
 - Commands
