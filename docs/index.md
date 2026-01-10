@@ -65,3 +65,4 @@ Following attempts have been made to solve this problem in different ways -
 - [Data Mesh](https://www.oreilly.com/library/view/data-mesh/9781492092384/)
 - [Jhipster](https://www.jhipster.tech/)
 - [DSL platform](https://docs.dsl-platform.com/)
+- [Glossary](https://www.dddcommunity.org/resources/ddd_terms/)
