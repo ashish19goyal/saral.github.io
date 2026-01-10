@@ -9,7 +9,7 @@ nav_order: 1
 ---
 ## About
 Our objective is to create a software design framework/language for software developers that covers all the aspects of Software development lifecycle, including
-1. Design
+1. Design (including Documentation and Visualization)
 2. Implementation
 3. Testing
 4. Optimization
@@ -63,3 +63,5 @@ Following attempts have been made to solve this problem in different ways -
 - [From mathematics to generic programming](https://learning.oreilly.com/library/view/from-mathematics-to/9780133491791/ch02.html#ch02lev1sec1)
 - [Introduction to Compilers and Language Design](http://compilerbook.org)
 - [Data Mesh](https://www.oreilly.com/library/view/data-mesh/9781492092384/)
+- [Jhipster](https://www.jhipster.tech/)
+- [DSL platform](https://docs.dsl-platform.com/)
