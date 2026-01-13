@@ -42,6 +42,7 @@ header_pages:
   - operations.md
   - motivation.md
   - documentation.md
+  - comparison-with-jhipster.md
 
 search_enabled: false
 
