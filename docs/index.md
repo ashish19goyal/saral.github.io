@@ -16,6 +16,8 @@ Our objective is to create a software design framework/language for software dev
 5. Deployment
 6. Monitoring
 
+![SDLC](images/sdlc.png)
+
 We are calling it `Saral`, meaning Simple. Software developers will only need understanding of System Design and tools like Saral to build and manage any software application.
 
 ## Context
