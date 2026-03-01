@@ -19,6 +19,7 @@ Our objective is to create a software design framework/language for software dev
 ![SDLC](images/sdlc.png)
 
 We are calling it `Saral`, meaning Simple. Software developers will only need understanding of System Design and tools like Saral to build and manage any software application.
+As the saying goes "the whole is greater than the sum of its parts", Saral provides all the tools in one place to manage end to end lifecycle of the project.
 
 ## Context
 Every few decades, technology has been moving towards a higher level of abstraction to hide the underlying complexities. Today, the complexities in Software development have again reached a point where managing it in its existing form is unviable and too expensive. A simple change in a big enterprise software costs thousands of dollars in terms of developers time and computational resources for development/testing/release. 
