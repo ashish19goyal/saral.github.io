@@ -34,9 +34,9 @@ Today, again we need another abstraction as the applications built today are dis
 - **Deterministic**: Produce the same results when implemented in any of today's technologies
 - **Cloud Native and agnostic**: Should be able run on any cloud platform or edge devices. Multi-cloud support 
 - **Incremental Development**: Should be able to use Saral to define the software projects that exist today.
-- **Unified and distributed**: Saral should adopt a distributed first ideology (microservices). As that’s the need of today’s software development. It should also support unified application (monolithic) generation for rapid testing in a limited scale environment.
+- **Unified and distributed**: Saral should adopt a distributed first ideology, i.e., distributed deployment using microservices and distributed processing using micro-batched stream processing. As that’s the need of today’s software development. It should also support unified application (monolithic) generation for rapid testing in a limited scale environment.
 - **Source control and Collaboration**: Saral should support `Source control` and `Team collaboration` using code repositories.
-- **Move from how to what**: Descriptive not imperative
+- **Move from how to what**: Descriptive not imperative.
 
 ## Market Research
 Gartner estimates that a third of business users want to create software applications to solve their problems. There are not enough resources available with the IT teams to meet this demand. To solve this problem, a lot of low-code/no-code solutions are proposed. Gartner estimated a $30 billion market for low code by 2025. About 65% of application development by 2030 will be low code.
